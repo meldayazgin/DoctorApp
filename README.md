@@ -34,3 +34,5 @@ Service Communication: Some services are independent and assumed to be connected
 Efficient Scheduling: Instead of cloud-based scheduling services, an internal asynchronous scheduler was implemented to manage reminders efficiently.
 
 Overall, the system successfully meets all the core requirements, leveraging scalable architecture, with potential enhancements in caching, filtering, and cloud-based automation.
+
+Note: Project codes are uploaded in Google Drive because of their file size. Same folder contains teh presentation video, an ER diagram file with picture and both RabbitMQ queue screenshots. Backend codes are titled flight and frontend code is titled taskmanager-app. 
