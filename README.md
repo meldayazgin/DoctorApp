@@ -1,7 +1,7 @@
 # DoctorApp
 Doctor Appointment System
 
-Our Doctor Appointment System is designed as a platform that enables patients to search for doctors, schedule appointments, and provide feedback, while allowing doctors to manage their availability and receive comments and ratings. The system follows a microservices architecture for and ease of maintenance. Authentication is handled through Firebase Authentication with Google, ensuring secure access for both doctors and patients.
+The Doctor Appointment System is designed as a platform that enables patients to search for doctors, schedule appointments, and provide feedback, while allowing doctors to manage their availability and receive comments and ratings. The system follows a microservices architecture for and ease of maintenance. Authentication is handled through Firebase Authentication with Google, ensuring secure access for both doctors and patients.
 
 Core System Components:
 
@@ -15,11 +15,11 @@ Notifications: A dedicated notification service sends email reminders for incomp
 
 Scheduling: An asynchronous scheduling mechanism manages daily notifications and appointment follow-ups.
 
-Message Queues: RabbitMQ is used for handling asynchronous messaging and improving system reliability.
+Message Queues: RabbitMQ is used for handling asynchronous messaging.
 
 Assumptions
 
-API Gateway: Assumed to be in place for managing service communication, which some are independent already.
+API Gateway: Assumed to be in place for managing service communication, which are independent already.
 
 Cloud-Based Scheduling: Assumed to be managed via cloud services, but is currently fully running through an internal scheduling mechanism.
 
