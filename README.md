@@ -36,3 +36,5 @@ Efficient Scheduling: Instead of cloud-based scheduling services, an internal as
 Overall, the system successfully meets all the core requirements, leveraging scalable architecture, with potential enhancements in caching, filtering, and cloud-based automation.
 
 Note: Project codes are uploaded in Google Drive because of their file size. Same folder contains teh presentation video, an ER diagram file with picture and both RabbitMQ queue screenshots. Backend codes are titled flight and frontend code is titled taskmanager-app. Some example codes are uploaded to the repository, actual project being in Google Drive.
+Google Drive link: https://drive.google.com/drive/folders/13fJTkBlvZB_uv4nzH7CQt_2rZznM5QMR?usp=sharing
+Note on how to run the project: Backend codes are titled flight which are run seperately from the frontend codes titled taskmanager-app. They are contained in the folder titled DoctorApp project. Rest of the files are in the folder titled Project Additional Files.
